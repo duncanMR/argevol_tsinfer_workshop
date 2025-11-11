@@ -1,0 +1,21 @@
+name: tsinfer-workshop
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.0
+  - pip
+  - jupyterlab
+  - tskit
+  - numpy=2.0.2
+  - pandas
+  - matplotlib
+  - pip:
+    - tsbrowse
+    - "git+https://github.com/tskit-dev/tsinfer"
+    - tsdate
+    - bio2zarr
+    - cyvcf2 
+    - pyfaidx
+    - tqdm
+    - msprime
+    - sgkit

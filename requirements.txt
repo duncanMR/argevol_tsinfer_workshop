@@ -1,0 +1,11 @@
+jupyterlab
+tskit
+numpy=2.0.2
+matplotlib
+tsbrowse
+tsinfer
+tsdate
+bio2zarr
+tqdm
+msprime
+sgkit
