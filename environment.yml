@@ -11,7 +11,7 @@ dependencies:
   - matplotlib
   - pip:
     - tsbrowse
-    - "git+https://github.com/tskit-dev/tsinfer"
+    - tsinfer
     - tsdate
     - bio2zarr
     - cyvcf2 
