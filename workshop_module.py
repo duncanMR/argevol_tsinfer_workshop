@@ -41,7 +41,8 @@ WB_base["Q4.json"] = [{
     "question": "Explore the various tabs of tsbrowse. Using the Tables, how many mutations are on Tree 1?",
     "type": "numeric",
     "answers": [
-        {"type": "value", "value": 26, "correct": true, "feedback": "Correct!"},
+        {"type": "value", "value": 10, "correct": true, "feedback": "Correct!"},
+        {"type": "value", "value": 26, "correct": False, "feedback": "You used the crazy arg!"},
         {"type": "default", "feedback": "Nope: make sure you're not using the 100 mismatch ratio ARG!"}
     ]
 }]
